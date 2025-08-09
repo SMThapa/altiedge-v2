@@ -7,10 +7,15 @@ import "./globals.scss";
 
 const montse = Montserrat({
   variable: "--font-normal",  
+  subsets: ['latin'], // choose at least one
+  weight: '400',
+  preload: true,
 })
 const bebas = Bebas_Neue({
   variable: "--font-bold",    
-  weight: '400', 
+  subsets: ['latin'], // or ['latin', 'latin-ext'] if you need more characters  
+  weight: '400',
+  preload: true,
 })
 
 export const metadata = {
