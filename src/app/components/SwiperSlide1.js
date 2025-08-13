@@ -7,48 +7,55 @@ import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import Image from 'next/image';
 
+import img1 from '../../assets/01.webp';
+import img2 from '../../assets/02.webp';
+import img3 from '../../assets/03.webp';
+import img4 from '../../assets/04.webp';
+import img5 from '../../assets/05.webp';
+import img6 from '../../assets/06.webp';
+
 
 const slides = [
   {
     title: 'Majestic Heights',
     subtitle: 'Mount Everest',
-    img1: '/assets/01.webp',
-    img2: '/assets/06.webp',
+    img1: img1,
+    img2: img6,
     desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     title: 'Snowy Summit',
     subtitle: 'Mount Kilimanjaro',
-    img1: '/assets/02.webp',
-    img2: '/assets/05.webp',
+    img1: img2,
+    img2: img5,
     desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     title: 'Icy Peaks',
     subtitle: 'Mount Elbrus',
-    img1: '/assets/03.webp',
-    img2: '/assets/04.webp',
+    img1: img3,
+    img2: img4,
     desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     title: 'Rugged Giant',
     subtitle: 'Denali',
-    img1: '/assets/04.webp',
-    img2: '/assets/03.webp',
+    img1: img4,
+    img2: img3,
     desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
   {
     title: 'Andean Majesty',
     subtitle: 'Aconcagua',
-    img1: '/assets/05.webp',
-    img2: '/assets/02.webp',
-    desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+    img1: img1,
+    img2: img2,
+    desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like img5"
   },
   {
     title: 'Frozen Frontier',
     subtitle: 'Mount Vinson',
-    img1: '/assets/06.webp',
-    img2: '/assets/01.webp',
+    img1: img6,
+    img2: img3,
     desc:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
   },
 ];

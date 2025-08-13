@@ -1,6 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 
+import img1 from '../../assets/07.webp';
+import img2 from '../../assets/10.webp';
+import img3 from '../../assets/08.webp';
+
 export const AboutSection = () => {
   return (
     <section>
@@ -8,13 +12,13 @@ export const AboutSection = () => {
             <div className="aboutSectionImages">
                 <div className="image1">
                     {/* <Image src="assets/11.webp" alt=""> */}
-                    <Image src="/assets/07.webp" alt="about-image" loading="lazy" width={1000} height={1000}/>
+                    <Image src={img1} alt="about-image" loading="lazy" width={1000} height={1000}/>
 
                     <div className="image2">
-                        <Image src="/assets/10.webp" alt="about-image" loading="lazy" height={300} width={300}/>
+                        <Image src={img2} alt="about-image" loading="lazy" height={300} width={300}/>
                     </div>
                     <div className="image3">
-                        <Image src="/assets/08.webp" alt="about-image" loading="lazy" height={300} width={300}/>
+                        <Image src={img3} alt="about-image" loading="lazy" height={300} width={300}/>
                     </div>
                 </div>                    
             </div>

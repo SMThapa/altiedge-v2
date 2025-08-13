@@ -5,6 +5,9 @@ import { Testimonial } from "./components/Testimonial";
 import { SwiperSlide1 } from "./components/SwiperSlide1";
 import ParallaxEffect from "@/hooks/ParallaxEffect";
 
+import herobanner from '../assets/09.webp';
+import logo from '../assets/icons/logo.png'
+
 export default function Home() {
   return (
     <main>
@@ -12,9 +15,9 @@ export default function Home() {
         <ParallaxEffect/>
         <div className="heroBanner">
           <div className="bgLayer"></div>
-          <Image src="/assets/09.webp" alt="hero-banner-image" className="parallax-image" height={1600} width={1600} loading="lazy" />
+          <Image src={herobanner} alt="hero-banner-image" className="parallax-image" height={1600} width={1600} loading="lazy" />
           <div className="heroBannerContent-center">
-            <Image src="/assets/icons/logo.png" alt="logo" className="logo" height={100} width={100} loading="lazy" />
+            <Image src={logo} alt="logo" className="logo" height={100} width={100} loading="lazy" />
             <p className="sectionTitle colorLight">AltiEdge</p>
           </div>
           <div className="heroBannerContent">

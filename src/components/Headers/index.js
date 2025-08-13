@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ScrollEffect from './ScrollEffect';
 import { headers } from 'next/headers';
 import ActiveLink from './ActiveLink';
+import logo from '../../assets/icons/logo.png'
 
 export const Header = async () => {
   const requestHeaders = await headers();
@@ -12,14 +13,14 @@ export const Header = async () => {
     {href:'/readiness-test', name:'Readiness Test'},
     {href:'/programs-&-events', name:'Programs & Events'},
     {href:'/about-us', name:'About Us'},
-  ]
+  ]  
 
   return (
     <nav className="header-nav">      
       <div className="navigation">
         <div className="logo">
           <Link href="/#">
-            <Image src="/assets/icons/logo.png" alt="logo" width={50} height={50} />
+            <Image src={logo} alt="logo" width={50} height={50} />
           </Link>
         </div>
         <div className="menu-section">

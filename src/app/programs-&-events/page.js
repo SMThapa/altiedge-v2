@@ -1,8 +1,33 @@
 import React from 'react'
+import { PageBanner } from '../components/PageBanner'
+import { ContentSwitch } from './ContentSwitch';
+import bannerImg from '../../assets/13.webp';
 
 const page = () => {
+  const banner = {
+    bannerImg: bannerImg,
+    title: 'Discover Our Programs & Events',
+    subTitle: 'Join, Learn, and Connect',
+    description:"Explore our curated lineup of workshops, expeditions, and community events designed to inspire, educate, and bring adventure enthusiasts together.",
+  }
+
+
   return (
-    <div>page</div>
+    <main>
+      <section>
+        <div className='programs-events'>
+          <PageBanner banner={banner}/>
+          <div className="pageContents">
+            {/* <div className="header-content">
+              <div className="title">how it works <span>&#43; Steps</span></div>                        
+            </div> */}
+
+            <ContentSwitch/>
+            
+          </div>
+        </div>
+      </section>
+    </main>
   )
 }
 

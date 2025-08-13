@@ -3,7 +3,15 @@ import { Footer } from "@/components/Footer";
 import { WhatsApp } from "@/components/WhatsApp";
 import { Montserrat, Bebas_Neue } from "next/font/google";
 import SmoothScroll from "@/hooks/SmoothScroll";
-import "./globals.scss";
+
+//css directly importing because of hotreload issue
+import '../style/_index.scss';
+import '../style/_footer.scss';
+import '../style/_header.scss';
+import '../style/_home.scss';
+import '../style/_marque.scss';
+import '../style/_readinessTest.scss';
+import '../style/_programs_events.scss';
 
 const montse = Montserrat({
   variable: "--font-normal",  
