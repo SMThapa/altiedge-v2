@@ -74,4 +74,22 @@
 
         }
     }
+
+    .test{
+        display: flex;
+        .left-content{
+            position: sticky;
+            top: 100px;            
+            width: 40%;
+
+            .sectionDescription{
+                max-width: 100%;
+                padding-left: 120px;
+            }
+        }
+        .right-content{
+            width: 60%;
+            
+        }
+    }
 }

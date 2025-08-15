@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { PageBanner } from '../components/PageBanner';
-import { imageConfigDefault } from 'next/dist/shared/lib/image-config';
+import { Test } from './Test';
 
 import img from '../../assets/11.webp';
 import bannerImg from '../../assets/12.webp';
@@ -50,6 +50,9 @@ const page = () => {
                   </div>
               </div>             
             </div>                                  
+          </div>
+          <div className='pageContents'>
+            <Test/>
           </div>
         </div>
       </section>
