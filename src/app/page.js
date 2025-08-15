@@ -15,9 +15,9 @@ export default function Home() {
         <ParallaxEffect/>
         <div className="heroBanner">
           <div className="bgLayer"></div>
-          <Image src={herobanner} alt="hero-banner-image" className="parallax-image" height={1600} width={1600} loading="lazy" />
+          <Image src={herobanner} alt="hero-banner-image" className="parallax-image" priority />
           <div className="heroBannerContent-center">
-            <Image src={logo} alt="logo" className="logo" height={100} width={100} loading="lazy" />
+            <Image src={logo} alt="logo" className="logo"  property/>
             <p className="sectionTitle colorLight">AltiEdge</p>
           </div>
           <div className="heroBannerContent">

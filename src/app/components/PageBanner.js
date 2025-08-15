@@ -7,7 +7,7 @@ export const PageBanner = ({banner}) => {
   return (
     <div className="pageBanner ">
         <ParallaxEffect/>
-        <Image src={banner.bannerImg} alt="" className="parallax-image" />
+        <Image src={banner.bannerImg} alt="" className="parallax-image" priority/>
         <div className="grayLayer"></div>
         <div className="bannerText">
             <h2 className='fade-slide-right fade-delay-1'>&#43; <span></span> {banner.subTitle}</h2>
