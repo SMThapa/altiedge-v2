@@ -1,0 +1,41 @@
+.about-page{
+    .pageBanner{
+        img{
+            object-position: 100% 25%;
+        }
+    }
+
+    .pageContents{
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+
+        display: grid;
+        grid-template-columns: 1fr 1.1fr;
+        height: 120vh;
+
+        .about-title{
+            font-size: var(--font-size1);
+            font-family: var(--font-bold);
+            margin-bottom: 25px;
+            max-width: 70%;
+        }
+
+        .about-text-content{    
+            h2{
+                font-size: var(--font-size5);
+                font-family: var(--font-bold);
+                font-weight: 400;
+                margin: 20px 0 10px;
+            }
+            p{
+                max-width: 80%;
+                font-size: 1rem;
+                line-height: 1.3;
+                
+                margin-bottom: 12px;
+            }
+        }
+    }
+    
+}

@@ -11,18 +11,14 @@ const page = () => {
     description:"Explore our curated lineup of workshops, expeditions, and community events designed to inspire, educate, and bring adventure enthusiasts together.",
   }
 
-
   return (
     <main>
       <section>
         <div className='programs-events'>
           <PageBanner banner={banner}/>
           <div className="pageContents">
-            {/* <div className="header-content">
-              <div className="title">how it works <span>&#43; Steps</span></div>                        
-            </div> */}
 
-            <ContentSwitch/>
+            <ContentSwitch/>                      
             
           </div>
         </div>

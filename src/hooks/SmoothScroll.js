@@ -10,6 +10,9 @@ export default function SmoothScroll() {
       smoothWheel: true // Smooth mouse wheel
     });
 
+    // Expose globally so ScrollToTop can use it
+    window.lenis = lenis;
+
     function raf(time) {
       lenis.raf(time);
       requestAnimationFrame(raf);
@@ -19,6 +22,7 @@ export default function SmoothScroll() {
 
     return () => {
       lenis.destroy();
+      delete window.lenis;
     };
   }, []);
 

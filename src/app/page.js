@@ -6,7 +6,7 @@ import { SwiperSlide1 } from "./components/SwiperSlide1";
 import ParallaxEffect from "@/hooks/ParallaxEffect";
 
 import herobanner from '../assets/09.webp';
-import logo from '../assets/icons/logo.png'
+import logo from '../assets/icons/logo.webp'
 
 export default function Home() {
   return (

@@ -3,7 +3,8 @@ import Link from 'next/link';
 import ScrollEffect from './ScrollEffect';
 import { headers } from 'next/headers';
 import ActiveLink from './ActiveLink';
-import logo from '../../assets/icons/logo.png'
+
+import logo from '../../assets/icons/logo.webp'
 
 export const Header = async () => {
   const requestHeaders = await headers();
