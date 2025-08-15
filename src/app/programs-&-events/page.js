@@ -1,7 +1,7 @@
 import React from 'react'
 import { PageBanner } from '../components/PageBanner'
 import { ContentSwitch } from './ContentSwitch';
-import bannerImg from '../../assets/13.webp';
+import bannerImg from '../../assets/17.webp';
 
 const page = () => {
   const banner = {
