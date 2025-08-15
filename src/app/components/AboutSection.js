@@ -12,13 +12,13 @@ export const AboutSection = () => {
             <div className="aboutSectionImages">
                 <div className="image1">
                     {/* <Image src="assets/11.webp" alt=""> */}
-                    <Image src={img1} alt="about-image" loading="lazy" width={1000} height={1000}/>
+                    <Image src={img1} alt="about-image" placeholder='blur'/>
 
                     <div className="image2">
-                        <Image src={img2} alt="about-image" loading="lazy" height={300} width={300}/>
+                        <Image src={img2} alt="about-image" placeholder='blur'/>
                     </div>
                     <div className="image3">
-                        <Image src={img3} alt="about-image" loading="lazy" height={300} width={300}/>
+                        <Image src={img3} alt="about-image" placeholder='blur'/>
                     </div>
                 </div>                    
             </div>

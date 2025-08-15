@@ -31,8 +31,7 @@ export default function Home() {
       </section>
       <AboutSection/>
       <SwiperSlide1/>
-      <Testimonial/>
-      
+      <Testimonial/>      
     </main>
   );
 }

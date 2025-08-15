@@ -30,7 +30,7 @@ const page = () => {
               <div className='about-title'>What AltiEdge Is <br />About?</div>
 
 
-              <Image src={image2} alt='image'/>
+              <Image src={image2} alt='image' placeholder='blur'/>
 
               <div className="bottom-text">
                 "it is not the mountain we conquer, but ourselves." <br /><span> — Sir Edmund Hillary</span>
