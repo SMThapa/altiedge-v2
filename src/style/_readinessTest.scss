@@ -20,7 +20,7 @@
             .step-contents{
                 position: relative;       
                 padding-left: 8%;
-                padding-top: 25px;
+                padding-top: 10%;
                 .stepTitle{
                     font-family: var(--font-bold);
                     font-size: var(--font-size3);
@@ -39,7 +39,7 @@
                 .stepNo{
                     font-family: var(--font-bold);
                     position: absolute;
-                    top: 15%;                    
+                    top: 20%;                    
                     transform: translateY(-50%);
                     font-size: 8rem;
                     z-index: 1;
@@ -54,7 +54,7 @@
                     order: 1;    
                     padding-left: 0;
                     padding-right: 8%;
-                    padding-top: 25px;
+                    padding-top:10%;
                     .stepTitle{
                         margin: 0 0 45px 20%;
                         text-align: left;
@@ -76,11 +76,12 @@
     }
 
     .test{
-        display: flex;
+        display: flex;        
         .left-content{
             position: sticky;
-            top: 100px;            
-            width: 40%;
+            top: 150px;            
+            width: 45%;
+            height: fit-content;
 
             .sectionDescription{
                 max-width: 100%;
@@ -88,8 +89,42 @@
             }
         }
         .right-content{
-            width: 60%;
-            
+            margin-left: 12%;
+            width: 55%;
+
+            .form-group{
+                margin-bottom: 25px;
+                label{
+                    display: block;
+                    font-size: 1.1rem;       
+                    margin-bottom: 6px;      
+                    opacity: .45;         
+                }
+                input, select{
+                    border: none;
+                    background-color: transparent;
+                    border-bottom: 1px solid var(--bg-dark2);
+                    width: 100%;
+                    padding: 12px 4px;
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    opacity: .7;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                input[type='email']{
+                    text-transform: lowercase;
+                }
+            }
+            button{
+                background: var(--bg-dark2);
+                color: var(--bg-light);
+                font-size: var(--font-size5);
+                width: 150px;
+                border-radius: 55px;
+            }
         }
     }
 }

@@ -124,9 +124,12 @@ section{
     justify-content: flex-start;
     align-items: center;
     column-gap: 12px;
-    border: 1px solid white;    
+    border: 1px solid var(--bg-dark);    
     border-radius: 55px;
     cursor: pointer;
+
+    background-color: rgba(225,225,225, .2);
+    backdrop-filter: blur(12px);
 
     width: 50px; /* Initial fixed width */
     height: 50px; /* Optional: if you want a fixed height */    
@@ -137,10 +140,10 @@ section{
                 all .4s cubic-bezier(0.4, 0, 0.2, 1);                
 
     overflow: hidden; /* Optional: if there's text/icons inside */
-    mix-blend-mode: difference;
+    // mix-blend-mode: difference;    
     p{
         opacity: 0;
-        color: var(--bg-light);
+        color: var(--bg-dark);
         transition: all .4s cubic-bezier(0.4, 0, 0.2, 1);    
         transition-delay: .3s;  
         white-space: nowrap;          
@@ -154,7 +157,7 @@ section{
         opacity: 1;
     }
     img{
-        filter: var(--filter-light);
+        filter: var(--filter-dark);
     }
 }
 .parallax-image{

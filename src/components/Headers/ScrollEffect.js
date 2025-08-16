@@ -10,7 +10,7 @@ export default function ScrollEffect() {
     const handleScroll = () => {
       const currentY = window.scrollY;
       if (currentY > lastScrollY) {
-        nav.style.top = '-80px';
+        nav.style.top = '-90px';
       } else {
         nav.style.top = '0';
       }
